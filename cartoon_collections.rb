@@ -1,7 +1,7 @@
 def roll_call_dwarves(array)# code an argument here
   # Your code here
   i = 0
-  dwarves = []
+  dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
   while i < array.length
     dwarves << yield(array[i])
     i += 1
